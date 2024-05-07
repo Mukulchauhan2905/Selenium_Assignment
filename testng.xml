@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test  name="Test">
     <classes>
-      <class name="com.nagarro.testclasses.TestClass1"/>
+      <class name="com.nagarro.testclasses.TestClass2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
