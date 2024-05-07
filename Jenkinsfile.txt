@@ -1,0 +1,71 @@
+pipeline {
+
+    agent any
+
+    tools {
+
+        maven 'Maven3'
+
+    }
+
+    stages {
+
+        stage('Checkout') {
+
+            steps {
+
+                git branch: 'main', url: 'https://github.com/Mukulchauhan2905/Selenium_Assignment.git'
+
+            }
+
+        }
+
+        stage('Build') {
+
+            steps {
+
+
+                bat 'mvn clean package'
+
+            }
+
+        }
+
+        stage('Test') {
+
+            steps {
+
+                bat 'mvn test' 
+
+            }
+
+        }
+
+    }
+
+    post {
+
+        success {
+
+            echo 'Pipeline succeeded! You can celebrate now.'
+            cleanTemporaryFiles()
+
+        }
+
+        failure {
+
+            echo 'Pipeline failed! Time to investigate.'
+            cleanTemporaryFiles()
+
+        }
+
+    }
+}
+
+    def cleanTemporaryFiles() {
+    try {
+        bat 'rmdir /S /Q target'
+    } catch (Exception e) {
+        echo "Error occurred while cleaning up target folder: ${e.message}"
+    }
+}

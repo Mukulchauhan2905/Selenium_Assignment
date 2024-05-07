@@ -41,19 +41,19 @@
       <![CDATA[Entered user email and password ]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-05-07T17:13:28Z" name="Default suite" finished-at="2024-05-07T17:13:52Z" duration-ms="23534">
+  <suite started-at="2024-05-07T17:28:02Z" name="Default suite" finished-at="2024-05-07T17:28:21Z" duration-ms="19173">
     <groups>
     </groups>
-    <test started-at="2024-05-07T17:13:28Z" name="Default test" finished-at="2024-05-07T17:13:52Z" duration-ms="23534">
+    <test started-at="2024-05-07T17:28:02Z" name="Default test" finished-at="2024-05-07T17:28:21Z" duration-ms="19173">
       <class name="com.nagarro.testclasses.TestClass1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:43:28Z" name="setUp" finished-at="2024-05-07T22:43:35Z" duration-ms="6141" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:58:02Z" name="setUp" finished-at="2024-05-07T22:58:06Z" duration-ms="4195" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Running test on chrome browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addProductsToShoppingCart(java.lang.String, java.lang.String)[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:43:35Z" name="addProductsToShoppingCart" data-provider="productData" finished-at="2024-05-07T22:43:40Z" duration-ms="5659" status="PASS">
+        <test-method signature="addProductsToShoppingCart(java.lang.String, java.lang.String)[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:58:06Z" name="addProductsToShoppingCart" data-provider="productData" finished-at="2024-05-07T22:58:11Z" duration-ms="4485" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,11 +81,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- addProductsToShoppingCart -->
-        <test-method is-config="true" signature="applyWaits()[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:43:40Z" name="applyWaits" finished-at="2024-05-07T22:43:40Z" duration-ms="65" status="PASS">
+        <test-method is-config="true" signature="applyWaits()[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:58:11Z" name="applyWaits" finished-at="2024-05-07T22:58:11Z" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applyWaits -->
-        <test-method signature="validateShoppingCartItems()[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:43:40Z" name="validateShoppingCartItems" finished-at="2024-05-07T22:43:45Z" duration-ms="4274" status="PASS">
+        <test-method signature="validateShoppingCartItems()[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:58:11Z" name="validateShoppingCartItems" finished-at="2024-05-07T22:58:15Z" duration-ms="4624" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Checking for items in the shopping cart]]>
@@ -95,11 +95,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- validateShoppingCartItems -->
-        <test-method is-config="true" signature="applyWaits()[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:43:45Z" name="applyWaits" finished-at="2024-05-07T22:43:45Z" duration-ms="55" status="PASS">
+        <test-method is-config="true" signature="applyWaits()[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:58:15Z" name="applyWaits" finished-at="2024-05-07T22:58:15Z" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applyWaits -->
-        <test-method signature="updateLocationPin(java.lang.String)[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:43:45Z" name="updateLocationPin" data-provider="locationData" finished-at="2024-05-07T22:43:45Z" duration-ms="868" status="PASS">
+        <test-method signature="updateLocationPin(java.lang.String)[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:58:15Z" name="updateLocationPin" data-provider="locationData" finished-at="2024-05-07T22:58:16Z" duration-ms="723" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,11 +116,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- updateLocationPin -->
-        <test-method is-config="true" signature="applyWaits()[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:43:45Z" name="applyWaits" finished-at="2024-05-07T22:43:45Z" duration-ms="52" status="PASS">
+        <test-method is-config="true" signature="applyWaits()[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:58:16Z" name="applyWaits" finished-at="2024-05-07T22:58:16Z" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applyWaits -->
-        <test-method signature="validatesUpdatedLocation()[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:43:45Z" name="validatesUpdatedLocation" finished-at="2024-05-07T22:43:46Z" duration-ms="67" status="PASS">
+        <test-method signature="validatesUpdatedLocation()[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:58:16Z" name="validatesUpdatedLocation" finished-at="2024-05-07T22:58:16Z" duration-ms="43" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Checking for Updated Location]]>
@@ -130,11 +130,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- validatesUpdatedLocation -->
-        <test-method is-config="true" signature="applyWaits()[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:43:46Z" name="applyWaits" finished-at="2024-05-07T22:43:46Z" duration-ms="40" status="PASS">
+        <test-method is-config="true" signature="applyWaits()[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:58:16Z" name="applyWaits" finished-at="2024-05-07T22:58:16Z" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applyWaits -->
-        <test-method signature="usersSignin(java.lang.String, java.lang.String)[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:43:46Z" name="usersSignin" data-provider="userData" finished-at="2024-05-07T22:43:52Z" duration-ms="5943" status="PASS">
+        <test-method signature="usersSignin(java.lang.String, java.lang.String)[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:58:16Z" name="usersSignin" data-provider="userData" finished-at="2024-05-07T22:58:19Z" duration-ms="2743" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -156,11 +156,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- usersSignin -->
-        <test-method is-config="true" signature="applyWaits()[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:43:52Z" name="applyWaits" finished-at="2024-05-07T22:43:52Z" duration-ms="33" status="PASS">
+        <test-method is-config="true" signature="applyWaits()[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:58:19Z" name="applyWaits" finished-at="2024-05-07T22:58:21Z" duration-ms="1714" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applyWaits -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:43:52Z" name="tearDown" finished-at="2024-05-07T22:43:52Z" duration-ms="314" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagarro.testclasses.TestClass1@71e9ebae]" started-at="2024-05-07T22:58:21Z" name="tearDown" finished-at="2024-05-07T22:58:21Z" duration-ms="352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
